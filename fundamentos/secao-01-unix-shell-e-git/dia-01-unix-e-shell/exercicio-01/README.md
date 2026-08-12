@@ -28,15 +28,14 @@
 
 #### De olho na dica: Para os próximos exercícios, crie manualmente na parte gráfica do seu sistema operacional (com o mouse) um arquivo de texto chamado skills.txt com o conteúdo abaixo.
 
-Copiar
-Internet
-Unix
-Bash
-HTML
-CSS
-JavaScript
-React
-SQL
+- Internet
+- Unix
+- Bash
+- HTML
+- CSS
+- JavaScript
+- React
+- SQL
 
 14. Mostre na tela as 5 primeiras skills do arquivo skills.txt.
 De olho na dica 👀: Caso você não tenha conseguido fazer esse exercício, reforce seus estudos sobre comandos do shell, manual e flags.
