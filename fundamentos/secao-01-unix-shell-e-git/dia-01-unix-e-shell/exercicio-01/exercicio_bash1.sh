@@ -6,4 +6,7 @@ cd unix_tests
 #2.Crie um arquivo de texto com o nome trybe.txt
 touch trybe.txt
 
+#3.Crie uma cópia do arquivo trybe.txt com o nome trybe_backup.txt.
+cp trybe.txt trybe_backup.txt
+
 
