@@ -30,3 +30,12 @@ rmdir backup
 #10.Renomeie a pasta backup2 para backup.
 mv backup2 backup
 
+#11.Veja qual é o path completo do diretório atual e liste todos os arquivos dentro dele.
+pwd
+ls
+
+#12.Apague o diretório backup.
+rm -rf backup
+
+#13.Limpe o terminal.
+clear
