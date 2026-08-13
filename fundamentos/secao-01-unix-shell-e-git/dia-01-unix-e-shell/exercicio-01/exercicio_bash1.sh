@@ -13,7 +13,20 @@ cp trybe.txt trybe_backup.txt
 mv trybe.txt whatever.txt
 
 #5.Dentro de unix_tests, crie um novo diretório chamado backup.
-mkdir backup
+mkdir -p backup
 
 #6.Mova o arquivo trybe_backup.txt para o diretório backup.
 mv trybe_backup.txt ./backup
+
+#7.Dentro de unix_tests, crie um novo diretório chamado backup2.
+mkdir -p backup2
+
+#8.Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+mv ./backup/trybe_backup.txt ./backup2
+
+#9.Apague a pasta backup.
+rmdir backup
+
+#10.Renomeie a pasta backup2 para backup.
+mv backup2 backup
+
