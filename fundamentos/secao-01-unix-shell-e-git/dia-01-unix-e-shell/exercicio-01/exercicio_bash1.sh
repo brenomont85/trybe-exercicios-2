@@ -76,3 +76,5 @@ tail -4 skills.txt
 #16.Apague todos os arquivos que terminam em .txt.
 rm -rf *txt
 
+echo -e "\n fim de execução do script \n"
+
