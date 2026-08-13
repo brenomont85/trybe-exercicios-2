@@ -39,3 +39,40 @@ rm -rf backup
 
 #13.Limpe o terminal.
 clear
+
+#De olho na dica 👀: Para os próximos exercícios, crie manualmente na parte gráfica do seu sistema operacional (com o mouse) um arquivo de texto chamado skills.txt com o conteúdo abaixo.
+
+#Internet
+#Unix
+#Bash
+#HTML
+#CSS
+#JavaScript
+#React
+#SQL
+
+cat << EOF > skills.txt
+Internet
+Unix
+Bash
+HTML
+CSS
+JavaScript
+React
+SQL
+EOF
+
+echo "Exibir o arquivo skills.txt completo comparação: "
+cat skills.txt
+
+#14.Mostre na tela as 5 primeiras skills do arquivo skills.txt.
+echo -e "\n 5 primeiras skills \n"
+head -5 skills.txt
+
+#15.Mostre na tela as 4 últimas skills do arquivo skills.txt.
+echo -e "\n 4 últimas skills \n"
+tail -4 skills.txt
+
+#16.Apague todos os arquivos que terminam em .txt.
+rm -rf *txt
+
