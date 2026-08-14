@@ -45,3 +45,24 @@ grep Brazil countries.txt
 #7.Busque novamente por brazil, mas agora utilize o lower case e não considere letras maiúsculas ou minúsculas.
 grep -i brazil countries.txt
 
+#Parte II
+
+#8.Crie um novo arquivo chamado phrases.txt e adicione algumas frases à sua escolha. Não é necessário criar o arquivo pelo terminal.
+cat << EOF > phrases.txt
+If ever your fortress caves you're always safe in mine.
+What does the fox say
+Here we are now, entertain us.
+I watched you burn in the eye of my sun.
+The quick brown fox jumps over the lazy dog
+EOF
+
+#9.Busque pelas frases que não contenham a palavra fox.
+grep -vi fox phrases.txt
+
+#10.Conte o número de palavras do arquivo phrases.txt.
+wc -w phrases.txt
+
+#11.Conte o número de linhas do arquivo phrases.txt.
+wc -l phrases.txt
+
+
