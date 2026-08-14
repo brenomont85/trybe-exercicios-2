@@ -65,4 +65,19 @@ wc -w phrases.txt
 #11.Conte o número de linhas do arquivo phrases.txt.
 wc -l phrases.txt
 
+#Parte III
 
+#12.Crie os arquivos empty.tbt e empty.pdf.
+touch empty.tbt empty.pdf
+
+#13.Liste todos os arquivos do diretório unix_tests_search.
+ls -a
+
+#14.Liste todos os arquivos que terminem com txt.
+ls *.txt
+
+#15.Liste todos os arquivos que terminem com tbt ou txt.
+ls *.t?t
+
+#16.Acesse o manual do comando ls.
+man ls
